@@ -1,0 +1,5 @@
+CREATE TABLE register(
+	id SERIAL PRIMARY KEY,
+	email VARCHAR(50) UNIQUE,
+	password VARCHAR(100)
+);
